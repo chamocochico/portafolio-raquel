@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" fill="none" viewBox="0 0 128 128" id="arrow-circle-up">
+  <path stroke="#000" stroke-width="8" d="M45 57.375L64.625 37.7501L84.25 57.375"></path>
+  <circle cx="64.5" cy="63.5" r="47.5" stroke="#000" stroke-width="8" transform="rotate(180 64.5 63.5)"></circle>
+  <path stroke="#000" stroke-width="8" d="M65 37L65 95"></path>
+</svg>

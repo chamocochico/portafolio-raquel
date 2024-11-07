@@ -1,0 +1,79 @@
+.container {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows:  0.2fr 2fr 2fr 2fr 2fr 2fr; 
+    gap: 10px 10px; 
+    grid-gap: 40px;
+    grid-template-areas:
+        "nav"
+        "portada"
+        "biografia"
+        "habilidades"
+        "proy1"
+        "proy2"
+        "contactos"; 
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+.barra {
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    background: #ffffff;
+    color: #0f242c;
+    font-weight: semi-bold;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+.barra:hover {
+    background: #9dacb8;
+    
+}
+header {
+    width: 76%;
+    background: #f5f5f5;
+    /*position: fixed;*/
+    top: 0;
+    border-radius: 6px;
+    margin: 10px;
+    margin-left: 100px;
+}
+.item {
+    scroll-margin-top: 0ex;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.head{
+    padding-left: 10px;
+    background: rgba(229, 210, 168, 0.1);   
+}
+.inicio{
+    width: 40px;  
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px 0px;
+}
+img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.nav { grid-area: nav; }
+.portada { grid-area: portada; }
+.habilidades { grid-area: habilidades; }
+.proy1 { grid-area: proy1; }
+.proy2 { grid-area: proy2; }
+.contactos { grid-area: contactos; }
+.biografia { grid-area: biografia; }
